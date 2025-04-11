@@ -1,0 +1,30 @@
+- Paradigma de Programación -
+
+El paradigma de programación tiene el objetivo el desarrollo computacional
+que se encuentra basado en la colección de objetos que se estan interrelacionando
+y que trabajan en conjunto para poder resolver los problemas. 
+
+Existen ventajas las cuales son:
+
+- Que tienen una buena abstracción de las clases, objetos y atributos que por ello
+nos brindan la implementación mas detallada, puntual y coherente.
+
+- Como tambien la reutilización del codigo ya que se pueden usar en distintas partes
+de los programas y en numerosos proyectos.
+
+- Tambien la Fabilidad de poder dividir los problemas en partes mas pequeñas
+que tambien se pueden probar de manera independiente y aislar mucho más facilmente
+los posibles errores que pueden surgir.
+
+Como tambien existen deventajas los cuales son:
+
+- Como la ejecución de la programación orientada objetos es mas lenta
+
+- Se Hereda el código que no se usa en la clase hija cuando exiseten de una 
+clase padre. 
+
+- La curva de aprendizaje que es la necesidad de utlizar bibliotecas de clases
+obligada al aprendizaje y entrenamiento.
+
+
+
