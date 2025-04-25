@@ -4,7 +4,16 @@ public static void main (String [] args){
 
 // Instancia
 
-Pelota pel = new Pelota ("Circular",41.5,450,"Cuero Sintético");
+Pelota pel = new Pelota ("Circular",41.5,450,"Cuero Sintético", "Se pateo la pelota","Se paso la pelota", "Se golpeo la pelota","Se atrapo la pelota");
+Movimientos movi = new Movimientos("Se peteo la pelota en otra direccion","Se paso la pelota en otra direccion","Se golpeo la pelota en la misma direccion","Se atrapo la pelota en el mismo lugar");
+
+//Nuevo
+
+pel.movimientos.setPatear(" | Se pateo la pelota ¿en que direccion?");
+String pelotaPeateo = pel.movimientos.getPatear();
+System.out.println("La pelota de se pateo en la direccion derecha" + pelotaPeateo);
+//System.out.println(movi);
+
 
 //set: Para modificar el valor del atributo 
 //get: Obtener el valor del atributo (Leer o Imprimir)

@@ -6,15 +6,29 @@ private String forma;
 private double tamano;
 private double peso;
 private String material;
+Movimientos movimientos;
 
 // Constructores
 
 Pelota(String forma, double tamano, double peso, String material){
 
+//super(forma, tamano);
+
 this.forma = forma;
 this.tamano = tamano;
 this.peso = peso;
 this.material = material;
+
+}
+
+//Nuevo Constructor
+Pelota(String forma, double tamano, double peso, String material, String patear, String pasar, String golpear, String atrapar){
+
+    this.forma = forma;
+    this.tamano = tamano;
+    this.peso = peso;
+    this.material = material;
+    this.movimientos = new Movimientos(patear, pasar, golpear, atrapar);
 
 }
 
