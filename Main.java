@@ -1,4 +1,43 @@
 public class Main {
+    public static void main(String[] args) {
+
+        // Arreglo para tipos de pelotas
+        Pelota[] pelotas = { new Pelotafut(), new Pelotabas()}; //Lista de objetos hijos 
+
+        // Se Itera sobre las pelotas en el arreglo
+        for (Pelota pelota : pelotas) {
+            
+            // Comprueba las pelotas y realiza una acción específica
+            if (pelota instanceof Pelotafut) {
+                Pelotafut futbol = (Pelotafut) pelota;
+                futbol.rodar();
+            }
+
+            // Ejecutar el método polimórfico
+            pelota.rebotar();
+        }
+    }
+}
+
+/*----------------------------------Pruebas o Cambios Realizados---------------------------------------------------*/
+
+/*public class Main {
+    public static void main(String[] args) {
+
+        // Se crea los objetos sin listas
+        Pelota pelotaFutbol = new Pelotafut();
+
+        // Se realiza la prueba de métodos polimórficos
+        System.out.println("Pelota de Fútbol");
+        System.out.println("Forma: " + pelotaFutbol.getForma());
+        System.out.println("Material: " + pelotaFutbol.getMaterial());
+        pelotaFutbol.rodar();
+        pelotaFutbol.rebotar();
+    }
+}
+    */
+
+/*public class Main {
     
 public static void main (String [] args){
 
@@ -34,3 +73,4 @@ System.out.println("El material de la Pelota es: " + pel.getMaterial());
 }
 
 }
+*/

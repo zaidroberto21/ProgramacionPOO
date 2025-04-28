@@ -32,6 +32,14 @@ Pelota(String forma, double tamano, double peso, String material, String patear,
 
 }
 
+//
+public void rodar(){
+
+}
+public void rebotar(){
+
+}
+
 // getter -> public tipo | Nombre del atributo ||| return nombre del atributo 
 
 public String getForma(){
