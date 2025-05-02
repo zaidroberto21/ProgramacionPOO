@@ -1,5 +1,29 @@
 public class Main {
+
+    //Overloading
+    
+        public static void main(String[] args) {
+    
+            Pelotafut pelotafut = new Pelotafut();
+            Pelotabas pelotabas = new Pelotabas();
+
+            pelotafut.rebotar(65); 
+            pelotafut.rodar(210); 
+            
+            System.out.println("--------------------------------------");
+            
+            pelotabas.rebotar(76);
+            pelotabas.rodar(54);
+            
+            System.out.println("--------------------------------------");
+        }
+    }
+    
+    /* ----------------------------------Cambios Realizados---------------------------------------------------
+    
     public static void main(String[] args) {
+
+        //--->@Override<---
 
         // Arreglo para tipos de pelotas
         Pelota[] pelotas = { new Pelotafut(), new Pelotabas()}; //Lista de objetos hijos 
@@ -16,8 +40,7 @@ public class Main {
             // Ejecutar el método polimórfico
             pelota.rebotar();
         }
-    }
-}
+    } */
 
 /*----------------------------------Pruebas o Cambios Realizados---------------------------------------------------*/
 

@@ -22,4 +22,18 @@ public class Pelotabas extends Pelota {
         System.out.println("La pelota de basquetbol puede rebota con fuerza sobre superficies duras");
     }
 
+    //Overloading | Sobre escritura de metodos, anuladar metodos
+
+    public void rebotar(int altura) {
+        System.out.println("La pelota de basquetbol rebota a " + altura + " cm");
+    }
+
+    //Overloading
+
+    public void rodar(int velocidad) {
+        System.out.println("La pelota de basquetbol rueda a " + velocidad + " km/h");
+    }
+
+    
+
 }

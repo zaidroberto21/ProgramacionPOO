@@ -20,6 +20,18 @@ public class Pelotafut extends Pelota {
         System.out.println("La pelota de fútbol tambien puede rebota de manera controlada");
     }
 
+    //Overloading | Sobre escritura de metodos, anuladar metodos
+
+    public void rebotar(int altura) {
+        System.out.println("La pelota de fútbol rebota a " + altura + " cm");
+    }
+
+    //Overloading
+    
+    public void rodar(int velocidad) {
+        System.out.println("La pelota de fútbol rueda a " + velocidad + " km/h");
+    }
+
 }
 
 
